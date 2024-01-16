@@ -39,7 +39,7 @@ public class PigLatin {
         //postcondition: returns the pig latin equivalent of sWord
         // more code should go here
 	    if(findFirstVowel(sWord) == -1) {
-		    return sWord + "ay";
+		    return sWord + "day";
 	    }
 	    else {
 		return "ERROR!";
